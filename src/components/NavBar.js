@@ -15,7 +15,11 @@ export default Navbar;
 
 const LogoStyle = styled.div`
     position: absolute;
-    top: 45px;
+    top: 60px;
     transform: translateY(-50%);
     margin-left: 70px;
+    @media (max-width: 560px) {
+        top: 80px;
+        margin-left: 10px;
+      }
 `;
