@@ -13,7 +13,7 @@ width: 600px;
   width: 300px;
   }
 @media (max-width: 768px) {
-  width: 600px;
+  width: 300px;
   }
 `;
 

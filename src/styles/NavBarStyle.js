@@ -12,6 +12,6 @@ export const NavBarStyle = styled.div`
   @media (max-width: 560px) {
     flex-direction: unset;
     height: 18vh;
-    width: 560px;
+    width: 450px;
   }
 `;
