@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ContainerStyle = styled.div`
-margin: 30px;
+margin: 5px;
 `;
 
 export const Container = styled.div`
-margin: 40px;
+margin: 10px;
 padding: 10px;
 border: 4px solid black;
 width: 600px;
@@ -13,3 +13,4 @@ width: 600px;
 width: 300px;
   }
 `;
+

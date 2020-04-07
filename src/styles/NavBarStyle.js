@@ -10,7 +10,8 @@ export const NavBarStyle = styled.div`
   color: white;
   font-size: 25px;
   @media (max-width: 560px) {
-    flex-direction: column;
-    height: 16vh;
+    flex-direction: unset;
+    height: 18vh;
+    width: 560px;
   }
 `;

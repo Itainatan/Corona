@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import TextField from '@material-ui/core/TextField';
-import { Container } from '../styles/ContainerStyle'
+import { Container, ContainerStyle } from '../styles/ContainerStyle'
 
 const Data = () => {
     const [countriesList, setCountriesList] = useState([]);
-    const [country, setCountry] = useState(null);
+    const [country, setCountry] = useState({});
 
     const fetchCountriesList = async () => {
         try {
@@ -46,11 +46,11 @@ const Data = () => {
                     renderInput={(params) => <TextField {...params} label="type country name" variant="outlined" />}
                     onChange={(e, value) => fetchCountryData(value)}
                 />
-                {country && <div>
+                {country && <ContainerStyle>
                     <div><h3>Number of cases:</h3> {country.cases}</div>
                     <div><h3>Number of deaths:</h3> {country.deaths}</div>
                     <div><h3>Number of recovered:</h3> {country.recovered}</div>
-                </div>}
+                </ContainerStyle>}
             </Container>
         </>
     )

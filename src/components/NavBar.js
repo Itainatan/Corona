@@ -19,7 +19,7 @@ const LogoStyle = styled.div`
     transform: translateY(-50%);
     margin-left: 70px;
     @media (max-width: 560px) {
-        top: 80px;
-        margin-left: 10px;
+        top: 70px;
+        margin-left: 70px;
       }
 `;
