@@ -6,7 +6,7 @@ export const NavBarStyle = styled.div`
   align-items: center;
   background-color: black; 
   height: 12vh;
-  padding: 0em 1em;
+  padding: 5px;
   color: white;
   font-size: 25px;
   @media (max-width: 560px) {

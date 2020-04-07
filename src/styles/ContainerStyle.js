@@ -10,6 +10,6 @@ padding: 10px;
 border: 4px solid black;
 width: 600px;
 @media (max-width: 700px) {
-width: 200px;
+width: 300px;
   }
 `;
