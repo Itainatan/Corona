@@ -6,7 +6,7 @@ import { Container, ContainerStyle } from '../styles/ContainerStyle'
 
 const Data = () => {
     const [countriesList, setCountriesList] = useState([]);
-    const [country, setCountry] = useState({});
+    const [country, setCountry] = useState([]);
 
     const fetchCountriesList = async () => {
         try {
@@ -32,6 +32,10 @@ const Data = () => {
 
     useEffect(() => {
         fetchCountriesList();
+    }, [])
+
+    useEffect(() => {
+        fetchCountryData('israel');
     }, [])
 
     return (
