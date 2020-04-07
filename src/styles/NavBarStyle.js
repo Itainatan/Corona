@@ -9,9 +9,4 @@ export const NavBarStyle = styled.div`
   padding: 5px;
   color: white;
   font-size: 25px;
-  @media (max-width: 560px) {
-    flex-direction: unset;
-    height: 18vh;
-    width: 450px;
-  }
 `;
