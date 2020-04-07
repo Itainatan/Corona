@@ -47,7 +47,7 @@ const Data = () => {
                 getOptionLabel={(option) => option}
                 style={{ width: 300 }}
                 renderInput={(params) => <TextField {...params} label="type country name" variant="outlined" />}
-                onChange={(e, value) => fetchCountryData(value)}
+                onChange={(e, value) => value && fetchCountryData(value)}
             />
             <ContainerDiv>
                 <div><h3>{country.country}-</h3></div>
