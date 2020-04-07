@@ -32,9 +32,6 @@ const Data = () => {
 
     useEffect(() => {
         fetchCountriesList();
-    }, [])
-
-    useEffect(() => {
         fetchCountryData('israel');
     }, [])
 
