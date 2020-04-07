@@ -1,6 +1,6 @@
 😷 Corona Site
 
-👉🏽 [https://corona-data-stats.netlify.com](Demo)
+👉🏽 [Demo](https://corona-data-stats.netlify.com)
 
 Corona site is an app that show statistics about the virus. 
 
