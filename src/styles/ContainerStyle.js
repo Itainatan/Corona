@@ -17,3 +17,6 @@ width: 600px;
   }
 `;
 
+export const ContainerDiv = styled.div`
+margin: 15px;
+`;
