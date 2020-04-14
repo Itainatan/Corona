@@ -1,7 +1,7 @@
-## Corona Site 😷
+## Todo-List Site 😷
 
-👉🏽 [Demo](https://corona-data-stats.netlify.com)
+👉🏽 [Demo](todo-list-itai-web.netlify.com)
 
-🌟 Corona site is an app that show statistics about the virus. 
+🌟 app that you can write all your task. 
 
-💻 Built with React Hooks | Style-Component.
+💻 Built with React Hooks.
